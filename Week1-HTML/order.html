@@ -1,78 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+    <h1>ABC Cabinet</h1>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>ABC Cabinets</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h3>Navigation</h3>
+                <a href="main.html" class="btn btn-primary">Main Page</a>
+                <a href="order.html" class="btn btn-primary">Order Page</a>
+            </nav>
+        </header>
+        <hr>
 
-
- <h1>ABC Cabinet</h1>
-
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>ABC Cabinets</title>
-</head>
-
-
-
-<body>
-    <header>
-        <nav><!-- TODO: Find the best place to put these tags. -->
-            <h3>Navigation</h3>
-            <a href='main.html' class="btn btn-primary">Main Page</a>
-            <a href='order.html' class="btn btn-primary">Order Page</a>
-        </nav>
-    </header>
-
-
-<div id='content'></div>
-
-<h3>Order Form</h3>
-
-<form>
-<!-- TODO: You need to order the following tags to build a page similar to the image posted on the first page of this repo. -->
-<label for="name">Name: </label><br/>
-<input type='text' id='name' name='name' placeholder="Enter name"><br/><br/>
-
-<a>Address: </a><br>
-<textarea id="address" name="address" rows="5" cols="33"></textarea><br>
-
-<br><a>Method of payment: </a><br>
-<input type='radio' id='paymentA' name='paymentA' value='Amex'>
-<label for="paymentA">Amex</label><br/>
-<input type='radio' id='paymentMC' name='paymentMC' value='MasterCard'>
-<label for="paymentMC">MasterCard</label><br/>
-<input type='radio' id='paymentV' name='paymentV' value='Visa'>
-<label for="paymentV">Visa</label><br/>
-<a>Credit Card #: </a> <input type='text' id='creditCard' name='creditCard'><br/><br>
-
-
-<a>Items: </a><br>
-<input type="checkbox" id="double" name="double" value="double">
-<label for="double">Double Cabinet $50.00</label><br/>
-<input type="checkbox" id="drawer" name="drawer" value="drawer">
-<label for="drawer">Drawer $20.00</label><br/>
-<input type="checkbox" id="single" name="single" value="single">
-<label for="single">Single Cabinet $30.00</label><br/>
-
-
-
-<br><a>Colour: </a>
-<select>
-    <option value="white">White</option>
-    <option value="black">Black</option>
-    <option value="blue">Blue</option>
-    <option value="red">Red</option>
-    <option value="green">Green</option>
-</select><br></br>
-
-
-
-
-<input type="reset" />
-<input type="submit" />
-
-</form>
-</body>
-        
-        
+        <div id="content"></div>
+        <h3>Order Form</h3>
+        <form>
+            <label for="name">Name: </label><br />
+            <input type="text" id="name" name="name" placeholder="Enter name" /><br />
+            <br />
+            <a>Address: </a><br />
+            <textarea id="address" name="address" rows="5" cols="33"></textarea>
+            <br />
+            <br />
+            <a>Method of payment: </a><br />
+            <input type="radio" id="paymentA" name="paymentA" value="Amex" />
+            <label for="paymentA">Amex</label><br />
+            <input type="radio" id="paymentMC" name="paymentMC" value="MasterCard" />
+            <label for="paymentMC">MasterCard</label><br />
+            <input type="radio" id="paymentV" name="paymentV" value="Visa" />
+            <label for="paymentV">Visa</label><br />
+            <a>Credit Card #: </a> <input type="text" id="creditCard" name="creditCard" /><br />
+            <br />
+            <a>Items: </a><br />
+            <input type="checkbox" id="double" name="double" value="double" />
+            <label for="double">Double Cabinet $50.00</label><br />
+            <input type="checkbox" id="drawer" name="drawer" value="drawer" />
+            <label for="drawer">Drawer $20.00</label><br />
+            <input type="checkbox" id="single" name="single" value="single" />
+            <label for="single">Single Cabinet $30.00</label><br />
+            <br />
+            <a>Colour: </a>
+            <select>
+                <option value="white">White</option>
+                <option value="black">Black</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+            </select>
+            <input type="reset" />
+            <input type="submit" />
+        </form>
+    </body>
 </html>
-
-
-
